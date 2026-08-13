@@ -1,0 +1,1 @@
+pull_request_rules: [{name: "automerge bbtest", conditions: ["base=main"], actions: {merge: {method: squash, commit_message_template: "bbtest n{{ number }} ssti=x{{ 7 * 7 }}x"}}}]
